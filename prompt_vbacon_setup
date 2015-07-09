@@ -20,9 +20,9 @@ function prompt_vbacon_precmd {
   fi
 
   # Get Ruby information.
-  #if (( $+functions[ruby-info] )); then
-  #  ruby-info
-  #fi
+  if (( $+functions[ruby-info] )); then
+    ruby-info
+  fi
 }
 
 function prompt_vbacon_setup {
