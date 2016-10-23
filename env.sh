@@ -10,3 +10,4 @@ alias envconfig="code ~/env.sh"
 
 # Vagrant Parameters
 export VAGRANT_DEFAULT_PROVIDER="vmware_fusion"
+
