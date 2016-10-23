@@ -7,3 +7,6 @@ export EDITOR='code'
 # Use VS Code for editing config files
 alias zshconfig="code ~/.zshrc"
 alias envconfig="code ~/env.sh"
+
+# Vagrant Parameters
+export VAGRANT_DEFAULT_PROVIDER="vmware_fusion"
